@@ -7,6 +7,8 @@
 
 # testing
 /coverage
+*.snap
+*.test.js
 
 # production
 /build
