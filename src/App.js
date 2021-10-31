@@ -1,8 +1,10 @@
-import React from "react"
+import React from "react";
+// import Hello from "@pages/Hello";
+import Hello from "@pages/Hello";
 function App() {
   return (
     <div className="App">
-      하이
+      <Hello></Hello>
     </div>
   );
 }

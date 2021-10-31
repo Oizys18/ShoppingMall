@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.4.0",
     "@styled-icons/bootstrap": "^10.34.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -46,6 +47,9 @@
       "last 1 safari version"
     ]
   },
+  "resolutions": {
+    "babel-loader": "8.1.0"
+  },
   "devDependencies": {
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
@@ -58,7 +62,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "jest": "^27.3.1",
+    "craco-alias": "^3.0.1",
     "jest-styled-components": "^7.0.5",
     "react-test-renderer": "^17.0.2",
     "styled-components": "^5.3.3"
